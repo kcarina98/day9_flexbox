@@ -1,0 +1,43 @@
+@font-face {
+  font-family: raleway;
+  src: url(../fonts/Raleway-VariableFont_wght.ttf);
+}
+
+* {
+  font-family: raleway;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  height: 76px;
+}
+
+/* !                                         */
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid rgb(205, 205, 205);
+}
+
+header nav h2 {
+  font-weight: 200;
+  color: #666666;
+}
+
+header nav div a {
+  padding: 0 30px;
+}
+
+header nav h2:hover {
+  color: #337ab7;
+}
+
+header nav a:hover {
+  color: #337ab7;
+}
